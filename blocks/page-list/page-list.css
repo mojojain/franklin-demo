@@ -1,0 +1,38 @@
+.page-list ul {
+    margin: 0;
+    padding: 0;
+}
+
+.page-list ul li {
+    display: flex;
+    flex-direction: column;
+    background: var( --highlight-background-color);
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.page-list img {
+    min-width: 250px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.page-list ul li a {
+    color: var(--text-color);
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.page-list ul li p {
+    margin: 0;
+    padding: 0;
+}
+
+.page-list .page-list__info {
+    display: flex;
+    gap: 10px;
+}
