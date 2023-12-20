@@ -1,6 +1,6 @@
 footer {
   padding: 2rem;
-  background-color: var(--light-color);
+  background-color: var(--overlay-background-color);
   font-size: var(--body-font-size-s);
 }
 
@@ -11,4 +11,52 @@ footer .footer {
 
 footer .footer p {
   margin: 0;
+}
+
+footer .footer__upper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .footer__upper ul {
+  list-style: none;
+  display: flex;
+  gap: 5rem;
+}
+
+footer .footer__upper ul li a {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--background-color);
+}
+
+footer .footer__upper p:last-child{
+  display: flex;
+  color: white;
+  align-items: end;
+}
+
+footer .footer__upper p:last-child a {
+  background: var(--highlight-background-color);
+  padding: 10px;
+}
+
+footer .footer__upper p:last-child a:first-child {
+  margin-left: 10px;
+}
+
+footer .footer__bottom {
+  margin-top: 40px;
+  color: white;
+  font-size: 12px;
+}
+
+footer .footer__bottom p {
+  margin-bottom: 13.5px;
+}
+
+footer .footer__bottom a {
+  color: white;
+  text-decoration: underline;
 }
